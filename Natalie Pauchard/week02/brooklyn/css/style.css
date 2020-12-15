@@ -14,6 +14,7 @@ Link Hover Color = #20222a
 body {
   width: 100%;
   max-width: 965px;
+  margin: 0 auto;
 }
 
 h1 {
