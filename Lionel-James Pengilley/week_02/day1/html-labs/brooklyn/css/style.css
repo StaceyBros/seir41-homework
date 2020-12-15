@@ -20,3 +20,7 @@ body {
 .textbox {
   width: 960px;
 }
+
+#container .bands{
+  position: center;
+}
