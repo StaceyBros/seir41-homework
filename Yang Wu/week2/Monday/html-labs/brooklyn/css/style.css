@@ -15,10 +15,13 @@ body {
   line-height:17px;
   font-family:"Times New Roman", serif;
   color:#656565;
+  background-image: url("images/background.jpg");
 }
 
 #container {
   margin:0 20px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
