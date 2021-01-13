@@ -42,13 +42,13 @@ const moveCat = () => {
     //         clearInterval(moveUp)
     //     }
     // }
-
+    //
     // const down = () => {
     //     const start = parseInt(cat.style.top);
     //     const move = start + 9;
     //     cat.style.top = move + 'px';
     // }
-
+    //
     // const moveUp = setInterval(up, 80);
     // const moveDown = setInterval(down, 80);
 
@@ -59,7 +59,7 @@ moveCat()
 
 //Get a random cat from catapi.com
 const getCat = async () => {
-    let cat = await fetch(`https://api.thecatapi.com/v1/images/search?api_key=${config.key}&mime_types=gif`);
+    let cat = await fetch(`https://api.thecatapi.com/v1/images/search?api_key=${key: ‘281874c3-9da6-4e7c-8d15-bdead63b1281’}&mime_types=gif`);
 
     const haveCat = await cat.json();
 
@@ -94,9 +94,9 @@ document.getElementById('cat').addEventListener('click', newCat);
 
 
 if (something) {
-    const moveRight = setInterval(right, 80);
+    const moveRight = setInterval(right, 200);
 }
 
 if (something) {
-    const moveUp = setInterval(up, 80);
+    const moveUp = setInterval(up, 500);
 }
