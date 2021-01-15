@@ -39,7 +39,7 @@ def journey (sLine, sStation, fLine, fStation)
   $indexAtStart = $subway_lines[sLine].index(sStation)
   $indexAtFinish = $subway_lines[fLine].index(fStation)
   number_of_stops = $indexAtStart - $indexAtFinish
-  
+
   if  number_of_stops < 0 #case going forward
       number_of_stops = number_of_stops * -1
       stationNames = $subway_lines[sLine][sStation.to_i + 1..fStation.to_i]

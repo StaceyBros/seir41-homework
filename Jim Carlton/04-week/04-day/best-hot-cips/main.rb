@@ -30,6 +30,13 @@ post '/' do
 
 end
 
+get '/random' do
+
+  @chipperies = query_db 'SELECT * FROM besthotchips'
+  @chippery = @chipperies.sample
+  erb :random
+  
+end
 
 # SHOW / DETAIL - show / detail page
 get '/:id' do
@@ -68,7 +75,6 @@ get '/:id/remove' do
   redirect to('/')
 
 end
-
 
 # database retrievable function
 def query_db(sql_statement)
