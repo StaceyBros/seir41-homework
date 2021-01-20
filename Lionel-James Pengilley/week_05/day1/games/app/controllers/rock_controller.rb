@@ -6,9 +6,10 @@ class RockController < ApplicationController
 
   def rock_paper_scissors_play
     @comp = ["rock", "paper", "scissors"]
-    @rand_number = 0 + rand(3)
+    @rand_number = rand(3)
     @comp_choice = @comp[@rand_number]
     @rock_result = "No decision"
+
     if params[:throw] == @comp_choice
       @rock_result = "You win"
     else

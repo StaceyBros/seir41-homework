@@ -1,6 +1,6 @@
 class GamesController < ApplicationController
   def home
-    render :home
+    # render :home
   end
 
   def magic_ball
@@ -33,5 +33,6 @@ class GamesController < ApplicationController
     @question = params[:question]
     @answer = answers[rand(answers.size)]
     render :answer
+    @answer
   end
 end

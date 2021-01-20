@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   post '/create' => "cities#create"
 
-  get '/edit/:id' => "cities#edit_form", :as => "edit_form"
+  get '/edit/:id' => "cities#edit_form", :as => 'edit_form'
   post '/edit/:id' => "cities#edit", :as => "edit"
 
   get '/delete/:id' => "cities#delete"
