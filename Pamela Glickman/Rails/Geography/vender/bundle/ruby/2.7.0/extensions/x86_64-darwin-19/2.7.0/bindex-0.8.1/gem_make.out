@@ -1,0 +1,15 @@
+current directory: /Users/staceybrosnan/Projects/seic41-classwork/seir41-homework/Pamela Glickman/Rails/Geography/vender/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/staceybrosnan/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/staceybrosnan/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210121-8911-16uc1o8.rb extconf.rb
+creating Makefile
+
+current directory: /Users/staceybrosnan/Projects/seic41-classwork/seir41-homework/Pamela Glickman/Rails/Geography/vender/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/staceybrosnan/Projects/seic41-classwork/seir41-homework/Pamela Glickman/Rails/Geography/vender/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/staceybrosnan/Projects/seic41-classwork/seir41-homework/Pamela Glickman/Rails/Geography/vender/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20210121-8911-rgb84b/skiptrace/internal
